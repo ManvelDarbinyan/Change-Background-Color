@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body,
+html {
+  height: 100%;
+  background-color: silver;
+}
+.div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.button {
+  height: 50px;
+  width: 150px;
+  background-color: silver;
+  border: double 1px #c0c0c030;
+  outline-style: none;
+  color: white;
+  border-radius: 20px;
+}
+button:hover {
+  background-color: silver !important;
+}
